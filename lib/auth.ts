@@ -24,14 +24,14 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   ],
   callbacks: {
     async jwt({ token, user }) {
-      if (user) token.user = user;
-      return token;
+      if (user) token.user = user
+      return token
     },
-    async session({ session, token }) {
-      return session;
+    async session({ session }) { 
+      return session
     },
     async redirect() {
-      return "http://localhost:3000";
+      return "http://localhost:3000"
     },
   },
   pages: {
