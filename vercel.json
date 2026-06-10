@@ -1,0 +1,6 @@
+{
+  "env": {
+    "NEXTAUTH_URL": "https://ferys-db.vercel.app",
+    "NEXTAUTH_SECRET": "5GvEoWi/2l5Z7bpPxsDdmx6Oc6zuead8NtmWcxDjtbE= "
+  }
+}
